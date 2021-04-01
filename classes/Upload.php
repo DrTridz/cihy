@@ -5,7 +5,7 @@ include 'appc/config.php';
 class Upload{
 
     protected $uploadDir;
-    protected $defaultUploadDir;
+    protected $defaultUploadDir = 'uploads';
     public $file;
     public $fileName;
     public $filePath;
